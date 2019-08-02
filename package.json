@@ -2,7 +2,7 @@
   "name": "insight-ui",
   "description": "An open-source frontend for the Insight API. The Insight API provides you with a convenient, powerful and simple way to query and broadcast data on the Quantsisnet network and build your own services with it.",
   "version": "2.0.10",
-  "repository": "git://github.com/quantisnetevo/insight-ui.git",
+  "repository": "git://github.com/wkibbler/insight-ui.git",
   "contributors": [
     {
       "name": "Matias Alejo Garcia",
