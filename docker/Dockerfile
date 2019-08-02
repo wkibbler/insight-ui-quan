@@ -27,8 +27,8 @@ RUN bin/quantisnetcore-node install @quantisnetevo/insight-ui@${VERSION}
 
 FROM node:8-alpine
 
-LABEL maintainer="Dash Developers <dev@quantisnet.org>"
-LABEL description="Dockerised Insight-Dash"
+LABEL maintainer="Quantsisnet Developers <dev@quantisnet.org>"
+LABEL description="Dockerised Insight-Quantsisnet"
 
 WORKDIR /insight
 
