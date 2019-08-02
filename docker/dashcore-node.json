@@ -1,0 +1,22 @@
+{
+  "network": "livenet",
+  "port": 3001,
+  "services": [
+    "quantisnetd",
+    "@quantisnetevo/insight-api",
+    "@quantisnetevo/insight-ui",
+    "web"
+  ],
+  "servicesConfig": {
+    "quantisnetd": {
+      "connect": [{
+        "rpchost": "127.0.0.1",
+        "rpcport": 9796,
+        "rpcuser": "quantisnetrpc",
+        "rpcpassword": "password",
+        "zmqpubrawtx": "tcp://127.0.0.1:29796",
+        "zmqpubhashblock": "tcp://127.0.0.1:29796"
+      }]
+    }
+  }
+}
