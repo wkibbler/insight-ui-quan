@@ -18,7 +18,7 @@ var InsightUI = function(options) {
   }
 };
 
-InsightUI.dependencies = ['@quantisnetevo/insight-api'];
+InsightUI.dependencies = ['insight-api'];
 
 inherits(InsightUI, BaseService);
 
